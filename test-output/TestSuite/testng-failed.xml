@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]">
+  <test thread-count="5" name="Searching(failed)">
+    <classes>
+      <class name="tests.Search">
+        <methods>
+          <include name="setUp"/>
+          <include name="search"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- tests.Search -->
+      <class name="tests.ClickFirstEntry">
+        <methods>
+          <include name="setUp"/>
+          <include name="cleanUp"/>
+          <include name="search"/>
+        </methods>
+      </class> <!-- tests.ClickFirstEntry -->
+    </classes>
+  </test> <!-- Searching(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->
